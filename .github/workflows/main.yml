@@ -1,0 +1,9 @@
+name: TEST CI
+
+
+on: [push]
+
+jobs: 
+  first-test:
+    steps:
+      - run: echo " My first test CI "
